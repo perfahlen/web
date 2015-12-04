@@ -1,0 +1,237 @@
+﻿body {
+    margin: 0;
+    color: white;
+    font-family: "Dosis";
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:visited {
+        color: white;
+    }
+
+li > a {
+    color: white;
+    margin-left: 1em;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+nav {
+    position: relative;
+    top: 1em;
+    float: right;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2em !important;
+    font-weight: 500;
+}
+
+/*--*/
+.sectionImage {
+    width: 70%;
+    max-width: 20em;
+    display: block;
+    margin: 0 auto;
+}
+
+/*.logo {
+    max-width: 300px;
+    margin-left: 7em;
+}*/
+
+.darkblue {
+    background-color: #006db0;
+}
+
+/*--*/
+.top {
+    min-width: 100%;
+    font-size: medium;
+    font-weight: 500;
+    position: fixed;
+    z-index: 10001;
+    opacity: .95;
+}
+
+/*---*/
+.movieSection {
+    overflow: hidden;
+    position: relative;
+    padding-top: 8em;
+}
+
+/*---*/
+.video {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+/*--*/
+.surfaceImage {
+    /*height: 80%;
+    width: 80%;*/
+    display: block;
+    margin: 0 auto;
+}
+
+/*--*/
+.ctaCheckBox {
+    color: #7cb82b;
+}
+
+/*--*/
+.ctaList {
+    font-size: 1.5em;
+}
+
+/*--*/
+.ctaListRows {
+    float: none !important;
+    padding-left: 20px;
+}
+
+ul > li > span {
+    margin-left: 20px;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*--*/
+.ctaHero {
+    background-color: #7cb82b;
+    padding: 0.3em;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    z-index: 1000;
+    border-radius: 4px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.centerText {
+    text-align: center;
+}
+
+
+/*--*/
+.graySection {
+    min-height: 10em;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #ececec;
+}
+
+    .graySection > img {
+        max-width: 1000px;
+        margin: 1em;
+    }
+
+/*--*/
+.blueSection {
+    min-height: 10em;
+    background-color: #4aa1dc;
+}
+
+/*--*/
+.yellowSection {
+    min-height: 10em;
+    background-color: #ecbe00;
+}
+
+/*---*/
+.greenSection {
+    min-height: 10em;
+    background-color: #7cb82b;
+}
+
+/*--*/
+.centerObj {
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+}
+
+.purpleSection {
+    min-height: 10em;
+    background-color: #6a247d;
+}
+
+/*.mvpLogo {
+    vertical-align: middle;
+    margin: auto;
+}*/
+
+/*--*/
+.bottom {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+/*--*/
+.footerImage {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    width: 30%;
+    max-width: 20em;
+}
+
+/*--*/
+.headerImage {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    width: 70%;
+    max-width: 20em;
+}
+
+/*---*/
+.serviceHeader {
+    text-transform: uppercase;
+    font-size: large;
+    margin-top: 2em;
+}
+
+.serviceGray {
+    color: lightgray;
+}
+
+/*--*/
+.footerList {
+    float: none !important;
+    font-size: medium;
+    font-weight: 100;
+    margin-top: 1em;
+}
+
+.mvpLogo {
+    margin-top: 2em;
+}
+
+#burgerNav {
+    display: none;
+}

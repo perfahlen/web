@@ -66,8 +66,33 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\app.css" />
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\grid.css" />
+    <Content Include="Content\normalize.min.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\GEO365-Office365.svg" />
+    <Content Include="images\favicon.ico" />
+    <Content Include="images\GEO365-analytics.svg" />
+    <Content Include="images\GEO365-ligg-color-neg.png" />
+    <Content Include="images\GEO365-ligg-color-neg.svg" />
+    <Content Include="images\GEO365-parts.svg" />
+    <Content Include="images\GEO365-video-01.svg" />
+    <Content Include="images\Microsift-suface-singel-blue-SMIL.png" />
+    <Content Include="images\MVP_Logo_Preferred_Cyan300_RGB_72ppi.png" />
     <Content Include="packages.config" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
     <None Include="Properties\PublishProfiles\geo365.pubxml" />
+    <Content Include="Scripts\app.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <Content Include="sida.html" />
+    <Content Include="video\GEO365-orange-world-1920x682.webm" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -77,11 +102,15 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
+    <Content Include="video\GEO365-orange-world-1920x682.jpg" />
+    <Content Include="video\GEO365-orange-world-1920x682.mov" />
+    <Content Include="video\GEO365-orange-world-1920x682.mp4" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

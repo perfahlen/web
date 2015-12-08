@@ -64,8 +64,9 @@
     }
 
     .smallLogo {
-        max-width: 30%;
+        height: 42px;
         padding: 4px;
+        padding-left: 8px;
     }
 
     #burger {

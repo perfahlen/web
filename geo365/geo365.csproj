@@ -81,6 +81,9 @@
     <Content Include="images\GEO365-video-01.svg" />
     <Content Include="images\Microsift-suface-singel-blue-SMIL.png" />
     <Content Include="images\MVP_Logo_Preferred_Cyan300_RGB_72ppi.png" />
+    <Content Include="contact.html">
+      <BrowseToURL>contact.html</BrowseToURL>
+    </Content>
     <Content Include="packages.config" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
@@ -89,7 +92,7 @@
     <Content Include="fonts\FontAwesome.otf" />
     <None Include="Properties\PublishProfiles\geo365.pubxml" />
     <Content Include="license.html">
-      <BrowseToURL>~/Pages/license.html</BrowseToURL>
+      <BrowseToURL>license.html</BrowseToURL>
     </Content>
     <Content Include="Scripts\app.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />

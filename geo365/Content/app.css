@@ -264,6 +264,10 @@ ul > li > span {
     text-decoration: underline;
 }
 
+.footerLinkBlack{
+    color: black !important;
+}
+
 #burgerNav {
     display: none;
 }

@@ -88,11 +88,15 @@
     <Content Include="fonts\fontawesome-webfont.woff2" />
     <Content Include="fonts\FontAwesome.otf" />
     <None Include="Properties\PublishProfiles\geo365.pubxml" />
+    <Content Include="license.html">
+      <BrowseToURL>~/Pages/license.html</BrowseToURL>
+    </Content>
     <Content Include="Scripts\app.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
     <Content Include="sida.html" />
     <Content Include="video\GEO365-orange-world-1920x682.webm" />
+    <None Include="Properties\PublishProfiles\site.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -105,12 +109,16 @@
     <Content Include="video\GEO365-orange-world-1920x682.jpg" />
     <Content Include="video\GEO365-orange-world-1920x682.mov" />
     <Content Include="video\GEO365-orange-world-1920x682.mp4" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Pages\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

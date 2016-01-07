@@ -97,7 +97,7 @@
     <Content Include="Scripts\app.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
     <Content Include="Scripts\jquery-1.9.1.min.map" />
-    <Content Include="sida.html" />
+    <Content Include="index.html" />
     <Content Include="video\GEO365-orange-world-1920x682.webm" />
     <None Include="Properties\PublishProfiles\site.pubxml" />
     <None Include="Web.Debug.config">
@@ -108,7 +108,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="index.html" />
+    <Content Include="construction.html" />
     <Content Include="video\GEO365-orange-world-1920x682.jpg" />
     <Content Include="video\GEO365-orange-world-1920x682.mov" />
     <Content Include="video\GEO365-orange-world-1920x682.mp4" />

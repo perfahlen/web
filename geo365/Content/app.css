@@ -184,7 +184,6 @@ ul > li > span {
     background-color: #6a247d;
     overflow: hidden;
     position: relative;
-    padding-top: 8em;
 }
 
 /*.mvpLogo {
@@ -258,7 +257,7 @@ ul > li > span {
     float: none !important;
 }
 
-.footerLink{
+.href{
     margin-left: 0 !important;
     text-transform: none !important;
     text-decoration: underline;
@@ -266,6 +265,10 @@ ul > li > span {
 
 .footerLinkBlack{
     color: black !important;
+}
+
+.margin-header{
+    padding-top: 8em;
 }
 
 #burgerNav {

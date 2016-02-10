@@ -73,6 +73,7 @@
     <Content Include="Content\normalize.min.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\GEO365-Office365.svg" />
+    <Content Include="geo365OnlinePrivacy.html" />
     <Content Include="images\favicon.ico" />
     <Content Include="images\GEO365-analytics.svg" />
     <Content Include="images\GEO365-ligg-color-neg.png" />
